@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+</head>
+<body>
+    <div>
+        <h1><center>Student Details Form </center></h1>
+        <form>
+            <label>Name :</label>
+            <input type="text" name="name" placeholder="Enter Name"/>
+            <br/><br/>
+            <label>Date OfBirth :</label>
+            <input type="date" name="dateOfBirth" />
+            <br/><br/>
+            <label>Age :</label>
+            <input type="number" name="age" placeholder="Enter Age"/>
+            <br/><br/>
+            <label>College Name :</label>
+            <input type="text" name="College Name" placeholder="Enter College Name"/>
+            <br/><br/>
+            <label>Phone Number</label>
+            <input type="number"name="Phone Number" placeholder="Enter Phone Number" />
+            <br/><br/>
+            <label>Gmail :</label>
+            <input type="text" placeholder="Enter Gmail" name="Gmail" />
+            <br/><br/>
+            <label>Password :</label>
+            <input type="password" name="Password" placeholder="Enter Password" />
+            <br/><br/>
+            <fieldset style="width: 20%">
+                <legend>Gender :</legend>
+                <input type="radio" id="male" name="gender" value="male" required />
+                <label for="male">Male</label><br />
+                <input type="radio" id="female" name="gender" value="female" required />
+                <label for="female">Female</label><br />
+            </fieldset>
+
+            <!-- Skills -->
+
+            <fieldset style="width: 20%">
+                <legend>Skills :</legend>
+                <input type="checkbox" name="skills" id="html" value="html"/>
+                <label>HTML</label>
+                <br />
+                <input type="checkbox" name="skills" id="CSS" value="CSS" />
+                <label>CSS</label>
+                <br />
+                <input type="checkbox" name="skills" id="Javascript" value="javascript" />
+                <label>Java Script</label>
+                <br />
+                <input type="checkbox" namee="skills" id="Python" value="Python" />
+                <label>Python</label>
+                <br />
+
+
+            </fieldset>
+            <fieldset>
+                <label for="role">Select Role:</label>
+                <select id="role" name="role" required>
+                    <option value="student">Student</option>
+                    <option value="employee">Employee</option>
+                <br/><br/><br/>
+            </select>
+            </fieldset>
+
+            <!-- resume upload -->
+
+             <label>Resume :</label>
+             <input type="file" id="resume" accept=".pdf, .doc, .docx" required />
+            
+             <!-- Password -->
+
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" required/>
+              <br /><br />
+
+              <!-- Note -->
+
+              <label for="note">Note :</label>
+              <br />
+              <textarea id="note" name="note" rows="4" cols="50"></textarea>
+              <br /><br />
+
+              <!-- Submit Button -->
+
+              <input type="submit" value="submit" />
+              
+
+
+             
+        </form>
+    </div>
+</body>
+</html>
