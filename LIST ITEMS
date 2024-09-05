@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Items</title>
+</head>
+<body>
+    <!-- List Items -->
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+    
+    <!-- un-order List Items -->
+        <!-- <ul>Madhu Mitha</ul>
+        <ul>Mounika</ul>
+        <ul>Vishu</ul>
+        <ul>Soniya</ul>
+        <ul>Chikky</ul> -->
+
+    <!-- Order List -->
+     <ol>
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+     </ol>
+     <hr/>
+     <ol Start="10">
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+     </ol>
+     <hr/>
+     <ol type="A">
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+     </ol>
+     <hr/>
+     <hr/>
+    <!-- unorder List elements -->
+     <ul style="List-style-type: circle">
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+
+     </ul>
+     <hr/>
+     <ul style="List-style-type: square">
+        <li>Madhu Mitha</li>
+        <li>Mounika</li>
+        <li>Vishu</li>
+        <li>Soniya</li>
+        <li>Chikky</li>
+
+     </ul>
+
+
+
+
+</body>
+</html>
